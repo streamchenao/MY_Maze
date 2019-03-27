@@ -277,7 +277,7 @@ void Maze::showResult()
 		for (int j = 0; j < mcol; ++j)
 		{
 			if ( mpMaze[i][j].mval == '*' )
-				cout << "* ";
+				printf("*");
 			else
 			{
 				cout << mpMaze[i][j].mval << " ";
